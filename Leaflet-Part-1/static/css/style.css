@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.legend h1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.legend .labels ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend .labels li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.legend .labels .min,
+.legend .labels .max {
+  float: left;
+}
+
+.legend .labels .min {
+  color: #888;
+}
+
+.legend .labels .max {
+  color: #555;
+  float: right;
+}
